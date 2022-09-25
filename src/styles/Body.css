@@ -1,0 +1,44 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.bodyContainer{
+    display: flex;
+    /* background-color: var(--nav-bg); */
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    margin-top: 24px;
+    /* background-color: black; */
+}
+
+.bodyHeader{
+    width: 80vw;
+    font-size: 22px;
+    color: var(--dark-600);
+}
+
+.grid {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 280px);
+    gap: 22px;
+    justify-content: center;
+}
+
+.bodyContent {
+    display: flex;
+    width: 80vw;
+}
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+.signUpButton {
+    display: flex;
+    align-items: center;
+    padding: 6px 16px;
+    height: 28px;
+    font-size: 22px;
+    border-radius: 8px;
+    color: white;
+    background-color: var(--primary-800);
+    margin: 0px 8px;
+}
+
+.signUpButton:hover{
+    cursor: pointer;
+}
+

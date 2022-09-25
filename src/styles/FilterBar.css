@@ -1,0 +1,81 @@
+
+
+.filterBar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    border-radius: 12px;
+    width: 100%;
+    margin-top: 14px;
+    margin-bottom: 24px;
+    padding: 8px 0px;
+}
+
+.filterBarItem {
+    /* height: 100%; */
+    /* display: flex;
+    flex-direction: column;
+    background-color: red; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.filterBarItem> input {
+    margin-bottom: 14px;
+    color: var(--dark-600);
+    border: none;
+    line-height: 1;
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.filterBarItem> input:hover{
+    cursor: pointer;
+
+}
+
+.filterBarItemName {
+    margin-bottom: 4px;
+    color: var(--light);
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.filterBarItemValue {
+    margin-top: 4px;
+    color: var(--dark-600);
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 800;
+   
+}
+
+.filterBarItemValue:hover{
+    cursor: pointer;
+}
+
+.filterBar > hr {
+    border: none;
+    margin: 0px;
+    width: 1px;
+    height: 32px;
+    background-color: var(--light);
+}
+
+.dropdown {
+    background-color: white;
+    padding: 16px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.dropdown.active {
+    position: absolute;
+    opacity: 1;
+}
+
+.dropdown.inActive{
+    display: none;
+}

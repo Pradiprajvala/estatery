@@ -1,0 +1,128 @@
+.propertyCard {
+    box-shadow: rgba(24, 51, 52, 0.05) 0px 48px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 360px;
+    background-color: white;
+    border-radius: 8px;
+    /* margin: 8px; */
+    
+}
+
+.propertyCard:hover{
+    scale: 1.01;
+    transition:  200ms ease-in-out;
+    cursor: pointer;
+}
+
+.propertyCardImage {
+    min-height: 50%;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+.propertyCardImage > img  {
+    object-fit: contain;
+    border-top-left-radius: 8px;
+    border-top-right-radius:8px;
+    width: 100%;
+}
+
+.propertyCardCenter {
+    margin: 4px 12px;
+    display: flex;
+    width: auto;
+    /* background-color: pink; */
+}
+
+.propertyCardCenterUnit {
+    color: var(--light);
+    line-height: 0;
+    font-weight: 600;
+    align-self: baseline;
+}
+
+.propertyCardCenterPrice {
+    align-self: baseline;
+    font-weight: 700;
+    line-height: 0;
+    font-size: 20px;
+    color: var(--primary-800);
+
+}
+
+.propertyCardCenter > .MuiSvgIcon-root{
+    margin-left: auto;
+    border: 1px solid var(--light);
+    padding: 6px;
+    border-radius: 22px;
+    align-self: center;
+    color: var(--primary-800);
+}
+
+
+
+.propertyCardTitle  {
+    font-size: 22px;
+    margin: 0px 12px;
+    align-self: flex-start;
+    font-weight: 700;
+    padding: 0px;
+    line-height: 1.5;
+    color: var(--dark-600);
+    white-space: nowrap;
+    overflow: clip;
+}
+
+
+.propertyCardAddress  {
+    margin: 0px 12px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+    font-size: 14px;
+    color: var(--light);
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: clip;
+}
+
+.propertyCardContent {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.propertyCardContent > hr {
+    margin: 2px 12px;
+    height: 1px;
+    align-self: center;
+    width: 90%;
+    border: none;
+    background-color: var(--light);
+}
+
+.propertyCardFooter {
+    margin: 0px 12px;
+    margin-bottom: 12px;
+    display: flex;
+    /* background-color: aliceblue; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.propertyCardFooterItem {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+   
+}
+
+.propertyCardFooterItem > p {
+    color: var(--light);
+}
+
+.propertyCardFooterItem > .MuiSvgIcon-root {
+    color: var(--primary-800);
+}
